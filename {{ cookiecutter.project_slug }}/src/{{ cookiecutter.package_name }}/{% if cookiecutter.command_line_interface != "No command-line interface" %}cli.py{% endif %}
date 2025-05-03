@@ -1,0 +1,11 @@
+{% if cookiecutter.command_line_interface == "Click" %}
+import click
+
+
+@click.command()
+def main() -> None:
+    click.echo("Hello from {{ cookiecutter.project_name }}!")
+
+
+if __name__ == "__main__":
+    main(){% endif %}
