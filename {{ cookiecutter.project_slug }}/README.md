@@ -8,7 +8,8 @@
 2. Install development dependencies:
 
 ```bash
-pip install -e ".[dev]"
+pip install -e .
+pip install -r ./requirements/dev.txt
 pre-commit install
 ```
 
