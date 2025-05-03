@@ -1,0 +1,13 @@
+{
+  "project_name": "My Python Package",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "package_name": "{{ cookiecutter.project_slug }}",
+  "project_short_description": "A Python package that does awesome things",
+  "version": "0.0.1",
+  "full_name": "Your Name",
+  "email": "your.email@example.com",
+  "github_username": "yourusername",
+  "requires_python": ">=3.11",
+  "license": "MIT",
+  "command_line_interface": ["Click", "No command-line interface"]
+}
