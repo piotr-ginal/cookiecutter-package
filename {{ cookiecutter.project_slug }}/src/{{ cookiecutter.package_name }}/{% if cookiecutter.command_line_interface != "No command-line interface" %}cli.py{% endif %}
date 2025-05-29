@@ -1,5 +1,4 @@
-{% if cookiecutter.command_line_interface == "Click" %}
-import click
+{% if cookiecutter.command_line_interface == "Click" %}import click
 
 
 @click.command()
