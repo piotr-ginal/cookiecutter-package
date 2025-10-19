@@ -1,5 +1,5 @@
 -r base.txt
 -r typing.txt
-ruff==0.11.11
+ruff==0.14.1
 pre-commit>=4.0.1
 pyrefly==0.37.0
