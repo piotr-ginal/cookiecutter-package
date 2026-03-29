@@ -31,4 +31,4 @@ repos:
         name: Pyrefly
         pass_filenames: false
         additional_dependencies: ["pyrefly==0.58.0"]
-        args: ["--ignore", "import-error"]
+        args: ["--ignore", "missing-import"]
