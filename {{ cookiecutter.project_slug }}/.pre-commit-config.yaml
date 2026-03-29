@@ -1,9 +1,6 @@
-# install with pre-commit install
-
 default_install_hook_types:
   - commit-msg
   - pre-commit
-
 repos:
   - repo: local
     hooks:
@@ -26,7 +23,6 @@ repos:
     rev: v0.14.1
     hooks:
       - id: ruff
-
   - repo: https://github.com/facebook/pyrefly-pre-commit
     rev: 0.0.1
     hooks:
